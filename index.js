@@ -32,3 +32,6 @@ function nameToAttributes(drivers) {
 
 // `attributesToPhrase` - this function takes an array of drivers as JavaScript objects and returns a string saying `"<NAME OF DRIVER> is from hometown"` for each JavaScript object in the array.
 
+function attributesToPhrase(drivers) {
+  console.log(drivers);
+}
