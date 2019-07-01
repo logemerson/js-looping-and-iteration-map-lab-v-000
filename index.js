@@ -36,6 +36,6 @@ function attributesToPhrase(drivers) {
   returnArr = [];
   // drivers = [{name: "Bobby", hometown: "Pittsburgh"}]
   for (const driver of drivers) {
-    return driver.name + ' is from ' + driver.hometown;
+    returnArr.push(driver.name + ' is from ' + driver.hometown);
   }
 }
