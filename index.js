@@ -35,6 +35,6 @@ function nameToAttributes(drivers) {
 function attributesToPhrase(drivers) {
   // drivers = [{name: "Bobby", hometown: "Pittsburgh"}]
   for (const driver in drivers) {
-    return driver.name + ` is from ` driver.hometown ;
+    console.log(driver.name);
   }
 }
