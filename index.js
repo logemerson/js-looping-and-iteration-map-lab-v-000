@@ -25,6 +25,7 @@ function nameToAttributes(drivers) {
 
     driverObjsArr.push(driverObj);
   })
+  debuggerl
   console.log('driverObjsArr = ...')
   console.log(driverObjsArr);
   return driverObjsArr;
