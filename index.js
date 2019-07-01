@@ -9,14 +9,25 @@ function lowerCaseDrivers(drivers) {
 //`nameToAttributes` - this function takes an array of drivers with their first and last name separated by a space (e.g., ['Bobby Smith', 'Anita Lovelace'], and returns an array of JavaScript objects with `firstName` and `lastName` attributes.
 
 function nameToAttributes(drivers) {
-  const driverArr = [];
+  const driverObjsArr = [];
 
   return drivers.map(function(driver) {
-    
-    
+    // driver = 'Kevin Durant'
+    const splitDriverArr = [];
+    const driverObj = {};
+
+    splitDriverArr.push(driver.split(' '));
+    // splitDriverArr = ['Kevin', 'Durant']
+
+    driverObj['firstName'] = splitDriverArr[0];
+    driverObj['lastName'] = splitDriverArr[1];
+    //driverObj = {firstname: 'Kevin'
+    //             lastName ; 'Durant'
+    //            }
+    driverObjsArr.push(driverObj);
   })
 
-  return driverArr;
+  return driverObjsArr;
 }
 
 
