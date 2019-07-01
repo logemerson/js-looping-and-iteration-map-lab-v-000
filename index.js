@@ -10,6 +10,7 @@ function lowerCaseDrivers(drivers) {
 
 function nameToAttributes(drivers) {
   const driverArr = [];
+  debuggerl
 
   return drivers.map(function(driver) {
     const fName = driver[0];
