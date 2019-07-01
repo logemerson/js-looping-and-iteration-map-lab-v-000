@@ -13,19 +13,16 @@ function nameToAttributes(drivers) {
 
   return drivers.map(function(driver) {
     // driver = 'Kevin Durant'
-    // const splitDriverArr = [];
     const driverObj = {};
     
     const splitDriverArr = driver.split(' ');
     console.log('splitDriverArr = ...');
     console.log(splitDriverArr);
-   // splitDriverArr = ['Kevin', 'Durant']
+    // splitDriverArr = ['Kevin', 'Durant']
     
     driverObj['firstName'] = splitDriverArr[0];
     driverObj['lastName'] = splitDriverArr[1];
-    //driverObj = {firstname: 'Kevin'
-    //             lastName ; 'Durant'
-    //            }
+
     driverObjsArr.push(driverObj);
   })
 
