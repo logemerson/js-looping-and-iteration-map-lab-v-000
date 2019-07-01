@@ -38,4 +38,5 @@ function attributesToPhrase(drivers) {
   for (const driver of drivers) {
     returnArr.push(driver.name + ' is from ' + driver.hometown);
   }
+  return returnArr;
 }
