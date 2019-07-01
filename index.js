@@ -33,6 +33,8 @@ function nameToAttributes(drivers) {
 // `attributesToPhrase` - this function takes an array of drivers as JavaScript objects and returns a string saying `"<NAME OF DRIVER> is from hometown"` for each JavaScript object in the array.
 
 function attributesToPhrase(drivers) {
-  debugger;
-  
+  // drivers = [{name: "Bobby", hometown: "Pittsburgh"}]
+  for (const driver in drivers) {
+    return `${driver.name} is from ${driver.hometown}`;
+  }
 }
