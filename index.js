@@ -34,7 +34,7 @@ function nameToAttributes(drivers) {
 
 function attributesToPhrase(drivers) {
   // drivers = [{name: "Bobby", hometown: "Pittsburgh"}]
-  for (const driver in drivers) {
+  for (const driver of drivers) {
     console.log(driver.name);
   }
 }
