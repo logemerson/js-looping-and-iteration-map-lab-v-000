@@ -17,11 +17,10 @@ function nameToAttributes(drivers) {
     const driverObj = {};
     
     const splitDriverArr = driver.split(' ');
+    
     console.log(splitDriverArr);
    // splitDriverArr = ['Kevin', 'Durant']
     
-    console.log('first name is...')
-    console.log(splitDriverArr);
     driverObj['firstName'] = splitDriverArr[0];
     driverObj['lastName'] = splitDriverArr[1];
     //driverObj = {firstname: 'Kevin'
